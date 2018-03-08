@@ -5,7 +5,7 @@ var getLocation = function()
 	var optionsLocation = {maximumAge: 60000, timeout:120000, enableHighAccuracy: true };
 
 	navigator.geolocation.getCurrentPosition(onSuccess, onError, optionsLocation);
-	alert("latitude : " + gCordonnees.latitude);
+//	alert("latitude : " + gCordonnees.latitude);
 
 }
 
@@ -14,7 +14,7 @@ function onSuccess(position)
 	//alert("Yes, get location details..");
 	gCordonnees.latitude = position.coords.latitude;
 	gCordonnees.longitude = position.coords.longitude;
-
+        console.log ("Fin de onsuccess latitude: " + position.coords.latitude);
 }
 
 function onError(error)

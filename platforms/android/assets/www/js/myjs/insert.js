@@ -7,6 +7,7 @@ $(document).ready(function() {
         var pass = $("#pass").val();
         var pass2 = $("#pass2").val();
         var dataString = "nom=" + nom + "&prenom=" + prenom + "&adresse=" + adresse + "&identifiant=" + identifiant + "&pass=" + pass + "&insert=";
+        
         if ($.trim(nom).length > 0 & $.trim(prenom).length > 0 & $.trim(adresse).length > 0 & $.trim(identifiant).length > 0 & $.trim(pass).length > 0 & $.trim(pass2).length > 0) {
             if(pass.localeCompare(pass2) == 0){
                 $.ajax({

@@ -46,19 +46,19 @@ function onFail(message)
 	alert('Failed because: ' + message);
 }
 
-var getLocation = function()
-{
-
-	document.addEventListener("deviceready",onDeviceReady,false);
-
-	function onDeviceReady(){
-		alert("Device Ready");
-		var options = { timeout: 60000 };
-		var optionsLocation = {maximumAge: 60000,timeout:120000, enableHighAccuracy: true };
-
-		navigator.geolocation.getCurrentPosition(onSuccess,onError,optionsLocation);
-	}
-}
+//var getLocation = function()
+//{
+//
+//	document.addEventListener("deviceready",onDeviceReady,false);
+//
+//	function onDeviceReady(){
+//		alert("Device Ready");
+//		var options = { timeout: 60000 };
+//		var optionsLocation = {maximumAge: 60000,timeout:120000, enableHighAccuracy: true };
+//
+//		navigator.geolocation.getCurrentPosition(onSuccess,onError,optionsLocation);
+//	}
+//}
 
 function onSuccess(position)
 {

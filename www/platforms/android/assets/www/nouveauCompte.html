@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nouveau Compte</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/css/icon.css" />
+	<link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/css/mdb.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/css/style.css" />
+	<script type="text/javascript" src="js/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/myjs/insert.js"></script>
+</head>
+<body>
+
+	<div class="container myContainer">
+		<div class="row">
+			<div class="col-md-8 col-sm-8 offset-md-2 offset-sm-2">
+				<!--Card-->
+			    <div class="card">
+			       
+			        <!-- Icon Utilisateur -->
+			        <div class="avatar mx-auto white">
+			        	<!--img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle"-->
+			        	<i class="fa fa-users fa-5x cyan-text" aria-hidden="true"></i>
+			        </div>
+
+			        <div class="card-body">
+
+
+						<!-- Champ nom -->
+		            	<div class="md-form form-sm">
+		                    <i class="fa fa-user prefix" aria-hidden="true"></i>
+		                    <input type="text" id="nom" name="nom" class="form-control form-control-sm" required="required" >
+		                    <label for="nom">Nom</label>
+		                </div>
+
+		                <!-- Champ prénom -->
+		            	<div class="md-form form-sm">
+		                    <i class="fa fa-user prefix" aria-hidden="true"></i>
+		                    <input type="text" id="prenom" name="prenom" class="form-control form-control-sm" required="required" >
+		                    <label for="prenom">Prénom</label>
+		                </div>
+
+		                <!-- Champ adresse -->
+		            	<div class="md-form form-sm">
+		                    <i class="fa fa-user prefix" aria-hidden="true"></i>
+		                    <input type="text" id="adresse" name="adresse" class="form-control form-control-sm" required="required" >
+		                    <label for="adresse">Adresse</label>
+		                </div>
+
+						<!-- Champ identifiant -->
+		            	<div class="md-form form-sm">
+		                    <i class="fa fa-user prefix" aria-hidden="true"></i>
+		                    <input type="text" id="identifiant" name="identifiant" class="form-control form-control-sm" required="required" >
+		                    <label for="identifiant">Identifiant</label>
+		                </div>
+
+						<!-- Champ mot de passe -->
+		                <div class="md-form form-sm">
+		                    <i class="fa fa-lock prefix"></i>
+		                    <input type="password" id="pass" name="pass" class="form-control form-control-sm" required="required" >
+		                    <label for="pass">Mot de passe</label>
+		                </div>
+
+		                <!-- Champ confirmer mot de passe -->
+		                <div class="md-form form-sm">
+		                    <i class="fa fa-lock prefix"></i>
+		                    <input type="password" id="pass2" name="pass2" class="form-control form-control-sm" required="required" >
+		                    <label for="pass2">Confirmer mot de passe</label>
+		                </div>
+
+						<!-- Boutton submit -->
+		            	<div class="text-center mt-4">
+					        <!--button type="submit" id="insert" name="insert" class="btn btn-outline-info">Insert<i class="fa fa-paper-plane-o ml-2"></i></button-->
+					        <input type="button" id="insert" class="button button-block" value="Insert" />
+					    </div>
+			        </div>
+
+			    </div>
+			    <!--/.Card-->
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/js/bootstrap.min.js"></script>
+</body>
+</html>

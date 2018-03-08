@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Camera</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/css/icon.css" />
+	<link rel="stylesheet" type="text/css" href="css/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/css/mdb.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/css/style.css" />
+	<script type="text/javascript" src="js/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/myjs/cameraBon.js"></script>
+	<script type="text/javascript" src="js/myjs/geolocalisation.js"></script>
+	<script type="text/javascript" src="js/myjs/nouveau_post.js"></script>
+</head>
+<body>
+	<div>
+		<button onclick="capturePhoto();">Capture Photo</button>
+	    <img id="smallImage" style="display:none" height="100%" width="100%">
+            
+            <button id="envoyer" onclick="nouveau_post();">Batch</button>
+        </div>
+
+</body>
+</html>
